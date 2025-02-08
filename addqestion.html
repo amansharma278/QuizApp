@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>adding questions</title>
+</head>
+    <style>
+        body{
+            background-image: url("alesia-kazantceva-XLm6-fPwK5Q-unsplash.jpg ");
+            width: 100%;
+            height: 100vh;
+            background-size: cover;
+            
+        }
+
+        *{
+            margin: 0;
+            padding: 0;
+            border: border-box;
+        }
+        #main_box{
+            max-width: 600px;
+            /* border: 2px solid black; */
+            margin: 20px auto 0;
+            padding: 30px;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        }
+        #Qestions{
+            padding: 15px;
+            width: 90%;
+           margin-top: 30px;
+           font-size: 1.2rem;
+           border: none;
+           background-color: transparent;
+           border-bottom: 3px solid rgb(236, 110, 6);
+           border-radius: 10px;
+           font-weight: bold;
+           
+           
+        }
+        #Qestions::placeholder{
+            color: rgb(4, 143, 185);
+        }
+        #options{
+            margin-top:15px ;
+        }
+        #options input{
+            width: 70%;
+            margin: 10px;
+            padding: 10px;
+            border: none;
+            border-radius: 10px;
+            font-size: 1rem;
+            font-weight: bold;
+            
+        }
+        
+        #options input:hover{
+            background-color: rgba(17, 13, 1, 0.603);
+            color: white;
+            
+            
+        }
+        #buttton{
+            margin-left: 17%;
+        }
+        
+        button{
+            margin-top: 10px;
+            padding: 7px 20px;
+            background-color: rgba(21, 255, 0, 0.534);
+            border: none;
+            border-radius: 10px;
+        }
+        button:hover{
+            background-color: rgb(241, 158, 4);
+            cursor: pointer;
+        }
+        #buttton input{
+            padding: 10px;
+            border: none;
+        }
+
+    </style>
+
+<body>
+    <div id="main_box">
+        <h1 style="font-weight: bold; color: rgb(238, 8, 169);">Add Your Qestions</h1>
+        <input placeholder="Enter question you want to add" id="Qestions">
+
+        <div id="options">
+            <input placeholder="Enter the first option" id="optin1">
+            <input placeholder="Enter the second option" id="optin2">
+            <input placeholder="Enter the third option" id="optin3">
+            <input placeholder="Enter the fourth option" id="optin4">
+        </div>
+        <div id="buttton">
+        <input placeholder=" Add Answere">
+        <button id="add_question" style="color: white; font-weight: bold;">ADD</button>
+        </div>
+    </div>
+</body>
+</html>

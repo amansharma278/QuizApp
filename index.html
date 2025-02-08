@@ -10,25 +10,44 @@
 <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;0,600;1,200&family=Roboto:ital,wght@0,400;0,900;1,900&display=swap" rel="stylesheet">
 
 </head>
+<!-- <style>
+    #bulb{
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        border: 2px solid red;
+        margin-left: 20%;
+        margin-top: 10%;
+    }
+    button{
+        padding: 20px 30px;
+        margin-left: 20%;
+        margin-top: 20px;
+    }
+</style> -->
 <body>
+<!--     
+    <div id="bulb">
 
-    <div class="box">
+    </div>
+    <button>SwitchON</button> -->
+     <div class="box">
         
         <h1>Simple quize questions</h1>
     
-        <div class="quetions">
-            <h2>How many seconds are there in a minute?</h2>
+        <div class="quiz">
+            <h2 id="question">question example</h2>
             
             <div class="button_ans">
-                <button class="btn">Option A</button>
-                <button class="btn">Option B</button>
-                <button class="btn">Option C</button>
-                <button class="btn">Option D</button>
+                <button class="btn" id="optA">Option A</button>
+                <button class="btn" id="optB">Option B</button>
+                <button class="btn" id="optC">Option C</button>
+                <button class="btn" id="optD">Option D</button>
             </div> 
         </div>
-        <button class="nextbtn"> Next</button>
-    </div>
+        <button class="nextbtn" onclick="next()"> Next</button>
+    </div> 
 
-   <script src="script.js"></script>
+   <script src="newscript.js"></script>
 </body>
 </html>

@@ -48,7 +48,7 @@ body{
   border-radius: 5px;
   color: #ffff;
   cursor: pointer;
-  display: none;
+  /* display: none; */
   
 }
 .nextbtn:hover{
